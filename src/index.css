@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'Public Sans', sans-serif;
+}
+
+.section-container {
+  max-width: 77.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-paddingY {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.heroBg {
+	background-image: url(/src/assets/bg-intro-desktop.svg);
+}
+
+.gradient{
+	background: linear-gradient(to right, #31d35c, #2bb7da);;
+}
+
+.gradientTop {
+	background: linear-gradient(to bottom, #fafafa, #fff);
+}
+
+
+@media screen and (max-width: 1023px) {
+	.heroBg {
+		background-image: url(/src/assets/bg-intro-mobile.svg);
+		background-size: contain;
+	}
+
+	.section-container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.section-paddingY {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
