@@ -8,9 +8,9 @@ const NavMobile = () => {
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
         exit={{ y: -400, opacity: 0 }}
-        className="lg:hidden m-4 fixed top-20 w-96 z-10"
+        className="lg:hidden fixed top-20 w-screen z-10"
       >
-        <div className="bg-white p-8 rounded-xl">
+        <div className="bg-white p-8 mx-4 rounded-xl">
           <ul className="text-xl text-center">
             <li className={styles.li}>Home</li>
             <li className={styles.li}>About</li>

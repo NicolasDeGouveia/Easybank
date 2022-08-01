@@ -44,7 +44,7 @@ const Footer = () => {
             <li className={styles.li}>Privacy Policy</li>
           </div>
         </ul>
-        <div className="py-8 lg:py-0 flex flex-col items-center">
+        <div className=" pt-8 lg:pt-0 flex flex-col items-center">
           <ButtonInvite />
           <p className="text-lg text-[#9698a6] pt-6">
             ©Easybank. All Rights Reserved
